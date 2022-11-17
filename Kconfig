@@ -1,0 +1,32 @@
+menuconfig SUBSYS_100ASK
+    bool "100ASK Components Support"
+    default n
+    help
+      https://forums.100ask.net/c/aw/15 
+
+
+if SUBSYS_100ASK
+
+comment "Enable subsys test that you want to run"
+config 100ASK_LED_TEST
+    bool "LED Test(control/blink led)"
+	default n
+
+config 100ASK_BUTTON_TEST
+    bool "Button Test"
+	default n
+
+config 100ASK_FC_JOYPAD_TEST
+    bool "Fc joypad Test"
+	default n
+
+config 100ASK_SPI_LCD_TEST
+    bool "SPI LCD Test"
+	default n
+
+config 100ASK_SPI_EPD_TEST
+    bool "SPI E-paper display Test"
+	default n
+
+
+endif #SUBSYS_SAMPLES
