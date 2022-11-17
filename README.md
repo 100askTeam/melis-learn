@@ -4,10 +4,10 @@
 
 # 使用方法
 
-将本仓库的内容放在 `melis4.0/ekernel/subsys/` 的目录下，比如：
+将本仓库的内容放在 `melis4.0/ekernel/subsys/` 的目录下：
 
 ```shell
-source "ekernel/subsys/melis-learn/Kconfig"
+D1s-Melis/ekernel/subsys/melis-learn
 ```
 
 然后在 `melis4.0/ekernel/subsys/Kconfig` 中包含 melis-learn 中的 Kconfig ：
